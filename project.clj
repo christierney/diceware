@@ -1,0 +1,8 @@
+(defproject diceware "0.1.0-SNAPSHOT"
+  :description "generate diceware passphrases"
+  :url "https://github.com/christierney/diceware"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :dependencies [[org.clojure/clojure "1.5.1"]]
+  :main diceware.core
+  :aot [diceware.core])
